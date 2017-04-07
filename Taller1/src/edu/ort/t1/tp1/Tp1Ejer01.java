@@ -8,16 +8,16 @@ multiplicado por 2.
 package edu.ort.t1.tp1;
 
 public class Tp1Ejer01 {
-	
+
 	public static int x;
+
 	public static void main(String[] args) {
-		x=0;
+		x = 0;
+
 		System.out.println("El numero es:" + x);
-		x=x+1;
+		x = x + 1;
 		System.out.println("El numero es:" + x);
-		x=x*2;
+		x = x * 2;
 		System.out.print("El numero es:" + x);
-
 	}
-
 }

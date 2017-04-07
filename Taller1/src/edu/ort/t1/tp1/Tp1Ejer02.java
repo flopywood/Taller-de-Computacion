@@ -12,13 +12,12 @@ public class Tp1Ejer02 {
 		int numa;
 		int numb;
 		int resultado;
+		
 		numa=4;
 		numb=5;
 		resultado=numa+numb;
 		System.out.println("La suma entre numa y numb es:" + resultado);
 		resultado=numa*numb;
 		System.out.print("La multiplicacion entre numa y numb es:" + resultado);
-
 	}
-
 }
