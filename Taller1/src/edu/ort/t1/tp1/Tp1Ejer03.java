@@ -19,12 +19,13 @@ public class Tp1Ejer03 {
 		int numb;
 		int resultado;
 		input = new Scanner(System.in);
+		
 		System.out.print("Ingrese el valor de numa:");
 		numa = input.nextInt();
 		System.out.print("Ingrese el valor de numb:");
 		numb = input.nextInt();
 		resultado = numa + numb;
-		System.out.print("La suma entre" + numa + "y" + numb + "da como resultado:" + resultado);
+		System.out.print("La suma entre " + numa + " y " + numb + " da como resultado:" + resultado);
 		input.close();
 	}
 

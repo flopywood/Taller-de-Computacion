@@ -1,4 +1,4 @@
-/*Tp1 Ejercicio 03
+/*Tp1 Ejercicio 04
  * Grupo 1
  * Alessandrini Rosario, De Vuono Florencia, Fernades Rodrigo, Ocampos Nahuel
  * Dados dos números (valor1 y valor2) cargados desde teclado por el usuario,
@@ -19,6 +19,7 @@ public class Tp1Ejer04 {
 		float numa;
 		float numb;
 		float resultado;
+		
 		System.out.print("Ingrese el valor1:");
 		numa = input.nextInt();
 		System.out.print("Ingrese el valor2:");
@@ -30,5 +31,4 @@ public class Tp1Ejer04 {
 			System.out.print("No se puede dividir por cero!");
 		input.close();
 	}
-
 }
